@@ -6,5 +6,5 @@ ExtremeBallroom Theme
 ChangeLog
 =========
 
-3.1
-Initial GitHub Release
+### 3.1 (Latest)
+* Initial GitHub Release
