@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"new_width"
+			],
+			[
+				"art",
+				"article_footer"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"Ba",
+				"background-color"
+			],
+			[
 				"border",
 				"border-radius"
 			],
@@ -20,10 +52,6 @@
 				"post-meta"
 			],
 			[
-				"min",
-				"min-width"
-			],
-			[
 				"borde",
 				"border-top"
 			],
@@ -36,19 +64,11 @@
 				"inline-block"
 			],
 			[
-				"bor",
-				"border-top"
-			],
-			[
 				"bord",
 				"border-top"
 			],
 			[
 				"ma",
-				"margin"
-			],
-			[
-				"mar",
 				"margin"
 			],
 			[
@@ -206,10 +226,6 @@
 			[
 				"num",
 				"num_comments"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"com",
@@ -498,27 +514,27 @@
 			[
 				"input",
 				"input-group-addon"
-			],
-			[
-				"end",
-				"endif"
-			],
-			[
-				"MOD_LO",
-				"MOD_LOGIN_VALUE_USERNAME"
-			],
-			[
-				"MOD_",
-				"MOD_LOGIN_VALUE_USERNAME"
-			],
-			[
-				"base",
-				"baseurl"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "archive.php",
+			"settings":
+			{
+				"buffer_size": 9670,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 15427,
+				"line_ending": "Unix"
+			}
+		},
 		{
 			"file": "functions.php",
 			"settings":
@@ -531,15 +547,31 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 9528,
+				"buffer_size": 9750,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 10430,
+				"buffer_size": 2852,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "search.php",
+			"settings":
+			{
+				"buffer_size": 4508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 119,
 				"line_ending": "Unix"
 			}
 		}
@@ -547,11 +579,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 347.0,
 		"selected_items":
 		[
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 350.0
 	},
 	"console":
 	{
@@ -568,6 +604,7 @@
 	},
 	"file_history":
 	[
+		"/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
 		"/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/biomesoplenty/ids.cfg",
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/style.css",
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/archive.php",
@@ -694,8 +731,7 @@
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/comments.php",
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/index.php",
 		"/Users/tschuky101/Desktop/youtube.svg",
-		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/gallery-bank/assets/css/bootstrap.css",
-		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/content-page.php"
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/gallery-bank/assets/css/bootstrap.css"
 	],
 	"find":
 	{
@@ -805,11 +841,65 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "archive.php",
+					"settings":
+					{
+						"buffer_size": 9670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7261,
+								7261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1973.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 15427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6590,
+								6590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2388.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "functions.php",
 					"settings":
 					{
@@ -830,61 +920,113 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7435.0,
+						"translation.y": 1431.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 9528,
+						"buffer_size": 9750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7728,
-								7728
+								7233,
+								7546
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 2095.0,
+						"translation.x": 911.0,
+						"translation.y": 2017.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+					"buffer": 4,
+					"file": "footer.php",
 					"settings":
 					{
-						"buffer_size": 10430,
+						"buffer_size": 2852,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3535,
-								3535
+								2813,
+								2813
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6408.0,
+						"translation.y": 429.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "search.php",
+					"settings":
+					{
+						"buffer_size": 4508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2487,
+								2205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 169.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
