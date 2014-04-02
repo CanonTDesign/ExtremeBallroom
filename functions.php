@@ -35,15 +35,6 @@ function Extreme_Ballroom_setup() {
 	require( get_template_directory() . '/inc/tweaks.php' );
 
 	/**
-	 * Theme Updater
-	 **/
-	require 'inc/theme-updates/theme-update-checker.php';
-		$MyThemeUpdateChecker = new ThemeUpdateChecker(
-		'Extreme_Ballroom', //Theme slug. Usually the same as the name of its directory.
-		'http://canontdesign.com/wp_theme_updater/?action=get_metadata&slug=Extreme_Ballroom' //Metadata URL.
-	);
-	
-	/**
 	 * Make theme available for translation
 	 * Translations can be filed in the /languages/ directory
 	 * If you're building a theme based on Extreme_Ballroom, use a find and replace
@@ -640,6 +631,38 @@ class zipGun_walker_comment extends Walker_Comment {
     <?php }
 }
 
+/**
+ * GitHub ThemeUpdate Config
+ * @since Extreme_Ballroom 3.1
+**/
+add_action( 'init', 'github_plugin_updater_test_init' );
+function github_plugin_updater_test_init() {
+
+	include_once 'updater.php';
+
+	define( 'WP_GITHUB_FORCE_UPDATE', true );
+
+	if ( is_admin() ) { // note the use of is_admin() to double check that this is happening in the admin
+
+		$config = array(
+			'slug' => plugin_basename(__FILE__), // this is the slug of your plugin
+	        'proper_folder_name' => 'Extreme_Ballroom', // this is the name of the folder your plugin lives in
+	        'api_url' => 'https://api.github.com/repos/CanonTDesign/ExtremeBallroom', // the github API url of your github repo
+	        'raw_url' => 'https://raw.github.com/CanonTDesign/ExtremeBallroom/master', // the github raw url of your github repo
+	        'github_url' => 'https://github.com/CanonTDesign/ExtremeBallroom', // the github url of your github repo
+	        'zip_url' => 'https://github.com/CanonTDesign/ExtremeBallroom/archive/master.zip', // the zip url of the github repo
+	        'sslverify' => true, // wether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
+	        'requires' => '3.8', // which version of WordPress does your plugin require?
+	        'tested' => '3.8.1', // which version of WordPress is your plugin tested up to?
+	        'readme' => 'README.md', // which file to use as the readme for the version number
+			'access_token' => '',
+		);
+
+		new WP_GitHub_Updater( $config );
+
+	}
+
+}
 
 
 
