@@ -1,0 +1,953 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"post",
+				"post-meta"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"page",
+				"page-numbers"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"align",
+				"aligncenter"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ca",
+				"caption"
+			],
+			[
+				"mouse",
+				"mouseleave"
+			],
+			[
+				"footer",
+				"footer_container"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"user",
+				"user_level"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"comment",
+				"comment_meta"
+			],
+			[
+				"comm",
+				"comment-bar"
+			],
+			[
+				"have_",
+				"have_comments"
+			],
+			[
+				"autho",
+				"author_pic"
+			],
+			[
+				"the",
+				"the_date"
+			],
+			[
+				"ex",
+				"Extreme_Ballroom_color_2"
+			],
+			[
+				"get_",
+				"get_theme_mod"
+			],
+			[
+				"bag",
+				"background-color"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"con",
+				"contain-to-grid"
+			],
+			[
+				"def",
+				"default_value"
+			],
+			[
+				"theme",
+				"theme_mod"
+			],
+			[
+				"a",
+				"array	$… = array (…)"
+			],
+			[
+				"Ex",
+				"Extreme_Ballroom"
+			],
+			[
+				"get",
+				"get_theme_mod"
+			],
+			[
+				"bac",
+				"Background"
+			],
+			[
+				"Extreme_Ballroom_ba",
+				"Extreme_Ballroom_background_img"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"grid",
+				"gridheight"
+			],
+			[
+				"edit",
+				"edit_post"
+			],
+			[
+				"curre",
+				"current_user_can"
+			],
+			[
+				"bold",
+				"bolder"
+			],
+			[
+				"fea",
+				"featured"
+			],
+			[
+				"featured",
+				"featured-image"
+			],
+			[
+				"top",
+				"top-right"
+			],
+			[
+				"comments",
+				"comments_popup_link"
+			],
+			[
+				"get_author_",
+				"get_the_author_meta"
+			],
+			[
+				"num",
+				"num_comments"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"com",
+				"comments_number"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"lin",
+				"linear"
+			],
+			[
+				"column",
+				"column_count"
+			],
+			[
+				"co",
+				"colum"
+			],
+			[
+				"cou",
+				"counter"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"po",
+				"post_decrement"
+			],
+			[
+				"ps",
+				"posts_left"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"sea",
+				"search"
+			],
+			[
+				"qu",
+				"query_args"
+			],
+			[
+				"search",
+				"search_query"
+			],
+			[
+				"tag",
+				"tagline"
+			],
+			[
+				"str_replce",
+				"str_replace"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"add",
+				"add_setting"
+			],
+			[
+				"add_",
+				"add_section"
+			],
+			[
+				"The",
+				"Theme_name"
+			],
+			[
+				"T",
+				"Theme_name_exploded"
+			],
+			[
+				"Canon",
+				"Canon_T_Design_twitter_link_settings"
+			],
+			[
+				"you",
+				"youtubeON"
+			],
+			[
+				"twitter",
+				"twitterON"
+			],
+			[
+				"face",
+				"facebookON"
+			],
+			[
+				"Canon_T_Design_face",
+				"Canon_T_Design_facebook_link_settings"
+			],
+			[
+				"Canon_T_Design_fa",
+				"Canon_T_Design_facebook_link_settings"
+			],
+			[
+				"C",
+				"Customize_Textarea_Control"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bar",
+				"background"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"tabl",
+				"table"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"blog",
+				"bloginfo"
+			],
+			[
+				"drop",
+				"dropdown"
+			],
+			[
+				"wid",
+				"device-width"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"navbar",
+				"navbar-collapse"
+			],
+			[
+				"cor",
+				"color"
+			],
+			[
+				"im",
+				"image_resize"
+			],
+			[
+				"image",
+				"image_resize"
+			],
+			[
+				"cal",
+				"cal_transition"
+			],
+			[
+				"cal_img",
+				"cal_img_1"
+			],
+			[
+				"img",
+				"cal_img_1"
+			],
+			[
+				"cT",
+				"c_Target"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"V",
+				"vp_w_m"
+			],
+			[
+				"cal_",
+				"cal_1"
+			],
+			[
+				"event",
+				"event_trigger"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"eve",
+				"event_trigger"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"scroll",
+				"scrollup"
+			],
+			[
+				"scr",
+				"scrollup"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"input-g",
+				"input-group-addon"
+			],
+			[
+				"COM",
+				"COM_SEARCH_SEARCH"
+			],
+			[
+				"J",
+				"JHtml"
+			],
+			[
+				"esca",
+				"escape"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"calen",
+				"calendar-bx"
+			],
+			[
+				"set",
+				"height-set"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"SO",
+				"solid"
+			],
+			[
+				"inpu",
+				"input"
+			],
+			[
+				"gly",
+				"glyphicon-search"
+			],
+			[
+				"input",
+				"input-group-addon"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"MOD_LO",
+				"MOD_LOGIN_VALUE_USERNAME"
+			],
+			[
+				"MOD_",
+				"MOD_LOGIN_VALUE_USERNAME"
+			],
+			[
+				"base",
+				"baseurl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 23215,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 9528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+			"settings":
+			{
+				"buffer_size": 10430,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/biomesoplenty/ids.cfg",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/style.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/archive.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/footer.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/header.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/search.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/no-results.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/404.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/sidebar.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/admin-color/Extreme/colors.min.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/admin-color/Extreme/colors.scss",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/library/css/foundation.css",
+		"/private/var/folders/xh/wlh5f7b907gd7r5rc_lr4kvr0000gn/T/f1427bd7-0b5d-477b-820e-060ee2c8c9ba/config/microblocks.cfg",
+		"/private/var/folders/xh/wlh5f7b907gd7r5rc_lr4kvr0000gn/T/f1427bd7-0b5d-477b-820e-060ee2c8c9ba/config/Mekanism.cfg",
+		"/private/var/folders/xh/wlh5f7b907gd7r5rc_lr4kvr0000gn/T/f1427bd7-0b5d-477b-820e-060ee2c8c9ba/config/advancedgenetics.cfg",
+		"/private/var/folders/xh/wlh5f7b907gd7r5rc_lr4kvr0000gn/T/f1427bd7-0b5d-477b-820e-060ee2c8c9ba/crash-reports/crash-2014-03-01_21.04.40-server.txt",
+		"/private/var/folders/xh/wlh5f7b907gd7r5rc_lr4kvr0000gn/T/f1427bd7-0b5d-477b-820e-060ee2c8c9ba/config/mystcraft/instabilities.cfg",
+		"/Users/tschuky101/Desktop/post-date-test.html",
+		"/Users/tschuky101/Desktop/ftb/Direwolf20_1_6_4/minecraft/config/MapWriter.cfg",
+		"/Applications/MAMP/htdocs/Wordpress/wp-config.php",
+		"/Applications/MAMP/htdocs/ExtremeBallroom/wp-content/themes/Extreme_Ballroom/style.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/content-page.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/page.php",
+		"/Applications/MAMP/htdocs/Joomla 3.0/templates/extremeballroomv2/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/content-single.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/content.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/content-gallery.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/single.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/index.php",
+		"/private/var/folders/xh/wlh5f7b907gd7r5rc_lr4kvr0000gn/T/f1427bd7-0b5d-477b-820e-060ee2c8c9ba/config/Morph.cfg",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/archive.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/Canon_T_Design.sublime-project",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/content-aside.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/functions.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/single.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/content-single.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/content.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/single.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/functions.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/content.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/content-gallery.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/page-no-container-and-comments.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/Page-with-featuredimage.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/comments.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-includes/admin-bar.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-admin/user/menu.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-admin/admin-header.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/searchform.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/library/css/foundation-icons.css",
+		"/Applications/MAMP/htdocs/Joomla 3.0/templates/extremeballroomv2/index.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/library/foundation-icons/foundation-icons.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/nggallery.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/class.dynamic_thumbnails_manager.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/interface.dynamic_thumbnails_manager.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/module.dynamic_thumbnails.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/interface.dynamic_thumbnails_controller.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/class.dynamic_thumbnails_installer.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/class.dynamic_thumbnails_controller.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/adapter.dynamic_thumbnails_storage_driver.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/dynamic_thumbnails/adapter.dynamic_thumbnail_routes.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/non_pope/class.photocrati_settings_manager.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/non_pope/class.nextgen_style_manager.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/non_pope/class.nextgen_settings.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/nextgen-gallery/readme.txt",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/image.php",
+		"/Users/tschuky101/Downloads/foundation-5.0.3.custom/index.html",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/header.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/foundation4-topbar-walker.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/library/joints.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/library/custom-post-type.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/library/admin.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/JointsWP-CSS-master/library/joints.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/JointsWP-CSS-master/header.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/JointsWP-CSS-master/footer.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/JointsWP-CSS-master/functions.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/shape.zip",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/taxonomy-post_format.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/content-image.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/style.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/search.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/archive.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/content-featured-post.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/search backup.php",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Users/tschuky101/Downloads/highslide-4.1.13/examples/gallery-vertical-strip.html",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/inc/tweaks.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/inc/template-tags.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/inc/custom-header.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/twentyfourteen/index.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/license.txt",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/searchform.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-admin/themes.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/404.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/archive.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/Backup Code.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/comments.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/content-aside.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/content-page.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/content-single.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/content.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/footer.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/functions.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/header.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/image.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/index.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/no-results.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/page.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/rtl.css",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/search.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/searchform.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/sidebar.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/style.css",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/single.php",
+		"/Users/tschuky101/Documents/Web Design/Wordpress/Themes/Extreme_Ballroom/wp_bootstrap_navwalker.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/sidebar.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/footer.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/wp_bootstrap_navwalker.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/inc/template-tags.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/image.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/page.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/functions.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/404.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/comments.php",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/index.php",
+		"/Users/tschuky101/Desktop/youtube.svg",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/gallery-bank/assets/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/content-page.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/Joomla 3.0/templates/extremeballroom"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".top-bar-section li.active:not(.has-form) a:not(.button):hover",
+			"true",
+			".close:focus:before",
+			".theme-browser",
+			"#adminmenu li.opensub>a.menu-top",
+			"#fff",
+			"#adminmenu .wp-has-current-submenu div.wp-menu-image:before, #adminmenu .current div.wp-menu-image:before, #adminmenu a.wp-has-current-submenu:hover div.wp-menu-image:before, #adminmenu a.current:hover div.wp-menu-image:before",
+			"#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, .folded #adminmenu li.current.menu-top",
+			"aa9d88",
+			"9ebaa0",
+			"738e96",
+			"627c83",
+			"[",
+			"Canon_T_Design",
+			"comments",
+			"glyph",
+			"comment",
+			"div",
+			"120",
+			"90",
+			"jquery.js",
+			"joints",
+			"jointstheme",
+			"joints",
+			"jointstheme",
+			"joints",
+			"#e14d43",
+			"#444",
+			"background",
+			"paging_nav",
+			"										<",
+			"();\n",
+			"php",
+			"//'",
+			"); ",
+			"''",
+			"										//",
+			"Canon_T_Design",
+			"search",
+			"Canon_T_Design",
+			"color",
+			"social",
+			"glyphicon\\",
+			"glyphicon",
+			"social_buttons",
+			"    =>",
+			"dropdown",
+			"dropdown-toggle",
+			"windowsize",
+			"Shape",
+			"shape",
+			"linear",
+			"dashed",
+			"btn-group",
+			"rate",
+			"templateColorFooterFont",
+			"');?>\"/>\n",
+			"<div id=\"top-nav\" class=\"navbar-inner\">\n                <button type=\"button\" class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\"#main\">\n                    <span class=\" icon-th-list icon-white\"></span>\n                </button>\n                <div id=\"main\" class=\"nav-collapse collapse\">\n                    <jdc:include type=\"modules\" name=\"Navigation\" style=\"none\" />\n                </div>\n                </div>",
+			"col-md-4",
+			"params",
+			"advanced",
+			"glyphicons-list",
+			"glyp",
+			"collapse",
+			".navbar-fixed-top",
+			"shape",
+			"\n<",
+			"Twenty",
+			"Twenty Twelve",
+			"twentytwelve",
+			"style.css",
+			"\n",
+			"icon",
+			"nav-header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 23215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17698,
+								17698
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7435.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 9528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7728,
+								7728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2095.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+					"settings":
+					{
+						"buffer_size": 10430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3535,
+								3535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6408.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true
+}

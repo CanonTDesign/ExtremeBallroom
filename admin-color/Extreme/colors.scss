@@ -1,0 +1,9 @@
+$base-color: #233e99;
+$icon-color: #231899;
+$highlight-color: #ffe800;
+$notification-color: #e6cf00;
+
+$form-checked: $base-color;
+
+@import "../../colors.css";
+@import "../_admin.scss";
