@@ -81,7 +81,7 @@ function hex2RGB($hexStr, $returnAsString = false, $seperator = ',') {
 ?>
 body{background-color: #f7f7f7;}
 div#header{background: #fff;}
-div#header div.contain-to-grid{background: none;}
+div.contain-to-grid{background: none;}
 *{border-radius: 0px;}
 .blur{background-color: #fff;}
 .nemus-slider .caption{padding: 0 20px 20px 20px !important;}
@@ -141,7 +141,7 @@ button:hover,
 
 a.credits_url:hover{text-decoration: underline;}
 
-h1.white, h2.white, h3.white, h4.white, h5.white, h6.white{
+h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, ul#article_footer li:hover span.has-tip{
 	color:<?php echo get_theme_mod('Extreme_Ballroom_color_2', 'default_value'); ?>;
 	border-color: <? echo get_theme_mod('Extreme_Ballroom_color_2', 'default_value'); ?>;
 }
@@ -167,17 +167,17 @@ div.pagnation ul {border-top:5px solid <?php echo get_theme_mod('Extreme_Ballroo
 div.pagnation ul li:hover{border-top: 5px solid <?php echo get_theme_mod('Extreme_Ballroom_color_accent', 'default_value'); ?>; margin-top: -5px;}
 /* Foundation Overrides
 -----------------------------------------------------*/
+ul#article_footer li span.has-tip{color: #008cba; font-weight: normal; border-bottom: none;}
 .breadcrumbs{ border:none; background: rgba(255,255,255,0.8); -webkit-border-radius: 0px;	border-radius: 0px; position: relative; z-index: 1;}
 form, button, .button, input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea{margin-bottom: 0;}
 
-
 </style>
-<?php wp_deregister_script('jquery');wp_head(); ?>
-<?php wp_head(); ?>
-<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script-->
+
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/vendor/modernizr.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/library/js/vendor/jquery.js"></script>
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script type="text/javascript" srch="<? echo get_template_directory_uri(); ?>/library/js/foundation/foundation.js"></script>
+<script type="text/javascript" srch="<? echo get_template_directory_uri(); ?>/library/js/foundation/foundation.tooltip.js"></script>
+<script type="text/javascript" srch="<? echo get_template_directory_uri(); ?>/library/js/vendor/fastclick.js"></script>
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?> id="body">

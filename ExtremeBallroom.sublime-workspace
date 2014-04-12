@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Extre",
+				"Extreme_Ballroom"
+			],
+			[
 				"new",
 				"new_width"
 			],
@@ -510,10 +514,6 @@
 			[
 				"gly",
 				"glyphicon-search"
-			],
-			[
-				"input",
-				"input-group-addon"
 			]
 		]
 	},
@@ -531,7 +531,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 15427,
+				"buffer_size": 15445,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "functions.php",
 			"settings":
 			{
-				"buffer_size": 23215,
+				"buffer_size": 24536,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 119,
+				"buffer_size": 141,
 				"line_ending": "Unix"
 			}
 		}
@@ -604,6 +604,7 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/.gitignore",
 		"/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
 		"/Users/tschuky101/Desktop/ftb/ftb_17testpack/minecraft/config/biomesoplenty/ids.cfg",
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Extreme_Ballroom/style.css",
@@ -730,8 +731,7 @@
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/404.php",
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/comments.php",
 		"/Applications/MAMP/htdocs/Wordpress/wp-content/themes/Canon_T_Design/index.php",
-		"/Users/tschuky101/Desktop/youtube.svg",
-		"/Applications/MAMP/htdocs/Wordpress/wp-content/plugins/gallery-bank/assets/css/bootstrap.css"
+		"/Users/tschuky101/Desktop/youtube.svg"
 	],
 	"find":
 	{
@@ -750,6 +750,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"include\\\\",
 			".top-bar-section li.active:not(.has-form) a:not(.button):hover",
 			"true",
 			".close:focus:before",
@@ -841,7 +842,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -866,7 +867,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1973.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -876,15 +877,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 15427,
+						"buffer_size": 15445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6590,
-								6590
+								888,
+								888
 							]
 						],
 						"settings":
@@ -893,7 +894,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2388.0,
+						"translation.y": 56.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -903,15 +904,15 @@
 					"file": "functions.php",
 					"settings":
 					{
-						"buffer_size": 23215,
+						"buffer_size": 24536,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17698,
-								17698
+								23170,
+								23170
 							]
 						],
 						"settings":
@@ -920,7 +921,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1431.0,
+						"translation.y": 8974.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -937,16 +938,16 @@
 						"selection":
 						[
 							[
-								7233,
-								7546
+								185,
+								185
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 911.0,
-						"translation.y": 2017.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1010,15 +1011,15 @@
 					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 119,
+						"buffer_size": 141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								96
+								98,
+								98
 							]
 						],
 						"settings":

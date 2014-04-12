@@ -65,26 +65,24 @@ function Extreme_Ballroom_setup() {
 		'custom-menu' => __('Top Menu', 'Extreme_Ballroom'), // Custom Navigation
 	) );
 
-	// function custom_nav()
- //            {
- //            wp_nav_menu(
- //            array(
- //                    'container' => false, // remove nav container
- //                    'container_class' => '', // class of container
- //                    'menu' => '', // menu name
- //                    'menu_class' => 'top-bar-menu', // adding custom nav class
- //                    'theme_location' => 'custom-menu', // where it's located in the theme
- //                    'before' => '', // before each link <a>
- //                    'after' => '', // after each link </a>
- //                    'link_before' => '', // before each link text
- //                    'link_after' => '', // after each link text
- //                    'depth' => 5, // limit the depth of the nav
- //                    'fallback_cb' => false, // fallback function (see below)
- //                    'walker' => new top_bar_walker()
- //            ));
- //    }
+	/**
+	 * Adds Support for a sidebar in the Blog Format
+	 */
 
- //    add_action('init', 'register_custom_menu'); // Add Custom Menu
+
+	function arphabet_widgets_init() {
+
+		register_sidebar( array(
+			'name'          => __('Main Sidebar', 'Extreme_Ballroom'),
+			'id'            => 'sidebar-1',
+			'description'   => __( 'Main Sidebar that appears on the left of the News Category'),
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2 class="widget-title landmark"><span>',
+			'after_title'   => '</span></h2>',
+		) );
+	}
+	add_action( 'widgets_init', 'arphabet_widgets_init' );
           
 	/**
 	 * Add support for the Aside Post Formats
@@ -419,6 +417,76 @@ add_action( 'wp_enqueue_scripts', 'Extreme_Ballroom_scripts' );
  * Implement the Custom Header feature
  */
 //require( get_template_directory() . '/inc/custom-header.php' );
+/**
+ * Theme Specific Widgets
+ */
+
+/**
+ * Example Widget Class
+ */
+class Search_widget extends WP_Widget {
+ 
+ 
+    /** constructor -- name this the same as the class above */
+    function Search_widget() {
+        parent::WP_Widget(false, $name = 'Seach Widget (Theme Version)');	
+    }
+ 
+    /** @see WP_Widget::widget -- do not rename this */
+    function widget($args, $instance) {	
+        extract( $args );
+        $title 		= apply_filters('widget_title', $instance['title']);
+        //$message 	= $instance['message'];
+        ?>
+              <?php echo $before_widget; ?>
+                  <?php if ( $title )
+                        echo $before_title . $title . $after_title; ?>
+							<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search" data-abide>
+								<div class="row">
+									<div class="small-12 columns">
+										<div class="row collapse">
+											<div class="small-9 columns">
+												<input type="text" class="form-control" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" id="s" placeholder="<?php esc_attr_e( 'Search &hellip;', 'Extreme_Ballroom' ); ?>" required>
+											</div>
+											<div class="small-3 columns">
+												<input type="submit" class="button postfix" type="button" name="submit" id="searchsubmit" value="<?php esc_attr_e( 'Search', 'Extreme_Ballroom' ); ?>">
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+              <?php echo $after_widget; ?>
+        <?php
+    }
+ 
+    /** @see WP_Widget::update -- do not rename this */
+    function update($new_instance, $old_instance) {		
+		$instance = $old_instance;
+		$instance['title'] = strip_tags($new_instance['title']);
+		//$instance['message'] = strip_tags($new_instance['message']);
+        return $instance;
+    }
+ 
+    /** @see WP_Widget::form -- do not rename this */
+    function form($instance) {	
+ 
+        $title 		= esc_attr($instance['title']);
+        //$message	= esc_attr($instance['message']);
+        ?>
+         <p>
+          <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label> 
+          <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
+        </p>
+		<!-- <p>
+          <label for="<?php //echo $this->get_field_id('message'); ?>"><?php //_e('Simple Message'); ?></label> 
+          <input class="widefat" id="<?php //echo $this->get_field_id('message'); ?>" name="<?php //echo $this->get_field_name('message'); ?>" type="text" value="<?php //echo $message; ?>" />
+        </p> -->
+        <?php 
+    }
+ 
+ 
+} // end class example_widget
+add_action('widgets_init', create_function('', 'return register_widget("Search_widget");'));
 
 /** 
  * Add/Remove Fields from user profile
