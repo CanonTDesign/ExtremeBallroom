@@ -11,7 +11,7 @@
 	<hr style="max-width: 1200px; margin: 0 auto; margin-bottom: 10px; margin-top: 10px;">
 
 	<div class="credits max_width center" style="text-align: center;">
-		&copy; <? echo date('Y'); ?> <? echo get_bloginfo('name'); ?>. <a href="http://www.canontdesign">Theme Designed By: Canon Tschikof</a>. Proudly powered by <a href="http://www.wordpress.org">WordPress <? echo get_bloginfo('version'); ?> </a>
+		&copy; <? echo date('Y'); ?> <? echo get_bloginfo('name'); ?>. Theme Designed By: <a href="http://www.canontdesign">Canon Tschikof</a>. Proudly powered by <a href="http://www.wordpress.org">WordPress <? echo get_bloginfo('version'); ?> </a>
 	</div>
 
 </div>	 
@@ -21,81 +21,83 @@
 
 <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation.min.js"></script>
 <script>
-	$(document).foundation();
-	$(document).ready(function(){
+	jQuery.noConflict();
+	jQuery(document).foundation();
+	jQuery(document).ready(function(){
 
-		$('article.news').first().css("border-top", "none");
+		jQuery('article.news').first().css("border-top", "none");
 
 		// Abide Script
-		var $abide_id = $('#searchform');
-		$($abide_id)
+		var jQueryabide_id = jQuery('#searchform');
+		jQuery(jQueryabide_id)
 		.on('invalid', function () {
-			var invalid_fields = $(this).find('[data-invalid]');
+			var invalid_fields = jQuery(this).find('[data-invalid]');
 			console.log(invalid_fields);
-			$abide_id.addClass('invalid')
+			jQueryabide_id.addClass('invalid')
 		})
 		.on('valid', function () {
 			console.log('valid!');
 		});
 
-		var $container = $('.archive_grid'),
-			$articles = $container.children('.article'),
+		var jQuerycontainer = jQuery('.archive_grid'),
+			jQueryarticles = jQuerycontainer.children('.article'),
 			timeout;
 
 		// Home Page image alt show
-		$(".caption-grid").hide();
-		$(".trigger").on("mouseenter", function() {
-			var width = $(this).find('img').width()-20;
-			$(this).find(".caption-grid").fadeToggle().width(width);
+		jQuery(".caption-grid").hide();
+		jQuery(".trigger").on("mouseenter", function() {
+			var width = jQuery(this).find('img').width()-20;
+			jQuery(this).find(".caption-grid").fadeToggle().width(width);
 		}).on("mouseleave", function() {
-			$(this).find(".caption-grid").fadeToggle();
+			jQuery(this).find(".caption-grid").fadeToggle();
 		});
 
 		// Archive and Serach grid and hover effects
-		$articles.on('mouseenter', function(event) {
-			var $article = $(this);
+		jQueryarticles.on('mouseenter', function(event) {
+			var jQueryarticle = jQuery(this);
 			clearTimeout( timeout );
 			timeout = setTimeout( function() {
-				if( $article.hasClass('active') ) return false;
-				$articles.not($article).removeClass('active').addClass('blur');
-				$article.removeClass('blur').addClass('active');
+				if( jQueryarticle.hasClass('active') ) return false;
+				jQueryarticles.not(jQueryarticle).removeClass('active').addClass('blur');
+				jQueryarticle.removeClass('blur').addClass('active');
 			}, 75 );
 		});
-		$container.on('mouseleave', function(event) {
+		jQuerycontainer.on('mouseleave', function(event) {
 			clearTimeout(timeout);
-			$articles.removeClass('active blur');
+			jQueryarticles.removeClass('active blur');
 		});
 
-		var size = $(window).width();
+		var size = jQuery(window).width();
 		if (size > 641){
 			setTimeout( function(){
 				var maxHeight = -1;
-			    $('.article').each(function() {
-					maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+			    jQuery('.article').each(function() {
+					maxHeight = maxHeight > jQuery(this).height() ? maxHeight : jQuery(this).height();
 				});
-				$('.article').each(function() {
-					$(this).height(maxHeight);
+				jQuery('.article').each(function() {
+					jQuery(this).height(maxHeight);
 				});
 			}, 0);
 		}
-		$( window ).resize(resize);
+		jQuery( window ).resize(resize);
 		function resize(){
-			var size = $(window).width();
+			var size = jQuery(window).width();
 			if (size > 641){
 				var maxHeight = -1;
-			    $('.article').each(function() {
-					maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+			    jQuery('.article').each(function() {
+					maxHeight = maxHeight > jQuery(this).height() ? maxHeight : jQuery(this).height();
 				});
-				$('.article').each(function() {
-					$(this).height(maxHeight);
+				jQuery('.article').each(function() {
+					jQuery(this).height(maxHeight);
 				});
 			} else {
 				var height = {height: "",};
-				$('.article').each(function() {
-					$(this).css(height);
+				jQuery('.article').each(function() {
+					jQuery(this).css(height);
 				});
 			}
 		};
+		console.log('Foundation Framework Version ' + Foundation.version);
 	});
 </script>
 
